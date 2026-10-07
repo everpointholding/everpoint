@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "everpoint-holding-telegram",
+  "compatibility_date": "2026-10-02",
+  "assets": { "directory": "./public", "not_found_handling": "404-page" },
+  "kv_namespaces": [ { "binding": "DATA", "id": "REPLACE_WITH_KV_ID" } ],
+  "secrets": { "required": ["TELEGRAM_BOT_TOKEN", "TELEGRAM_ADMIN_CHAT_ID", "SESSION_SECRET"] }
+}
