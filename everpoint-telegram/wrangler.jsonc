@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "everpoint-holding-telegram",
+  "name": "everpoint",
   "compatibility_date": "2026-10-02",
   "assets": { "directory": "./public", "not_found_handling": "404-page" },
   "kv_namespaces": [ { "binding": "DATA", "id": "c291edcbbea442f6af8cc1ef746b9e09" } ],
